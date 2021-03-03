@@ -8,7 +8,30 @@
 - JS provides access to variables outside of a function (above or below function)
 
 ### What are JS Promises
-- promises are async code that allows time the complier to resolve and at a time later returns the function  
+- The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting values
+      * A Promise in in one of these states:
+            * pending: initial state, neither fulfilled nor rejected
+            * fulfilled: menaing that the operation was completed successfully
+            * rejected: meaning that the operation failed 
+
+```JS
+let p = new Promise((resolve, reject) => {
+  let a = 1 + 1
+  if(a == 2){
+    resolve('Success')
+  }else{
+    reject('Failed')
+  }
+})
+
+p.then((message) => {
+  console.log(`This is the '.then' ${message}`)
+}).catch((message) => {
+  console.log(`This is the '.catch' ${message}`)
+})
+```
+
+
 
 ### What is Object Oriented Programming?
 
