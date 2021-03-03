@@ -9,10 +9,10 @@
 
 ### What are JS Promises
 - The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting values
-      * A Promise in in one of these states:
-            * pending: initial state, neither fulfilled nor rejected
-            * fulfilled: menaing that the operation was completed successfully
-            * rejected: meaning that the operation failed 
+      - A Promise is in one of these states:
+            - pending: initial state, neither fulfilled nor rejected
+            - fulfilled: menaing that the operation was completed successfully
+            - rejected: meaning that the operation failed 
 
 ```JS
 let p = new Promise((resolve, reject) => {
