@@ -34,6 +34,21 @@ p.then((message) => {
 
 
 ### What is Object Oriented Programming?
+- The basic idea of OOP is that we use objects to model real world things that we want to represent inside our programs, and/or provide a simple way to access functionality that would otherwise be hard or impossible to make use of.
+
+- 4 Pillars
+- Encapsulation - is object grouping of related variables and functions  
+-   reduce complexity 
+-   increase reusability
+
+- Abstraction - hiding some of the properties and methods from the outside
+-   created a simple interface
+-   isolate the impact of change
+ 
+
+- Inheritance - mechanism that allows you to eliminate redundant code
+
+- Polymorphism - technique that allows you to remove long if and else or switch and case statements. 
 
 
 
